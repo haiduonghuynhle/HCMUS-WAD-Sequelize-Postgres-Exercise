@@ -1622,6 +1622,19 @@ ol {
 .product__pagination,
 .blog__pagination {
 	padding-top: 10px;
+	list-style-type: none;
+}
+
+.product__pagination li,
+.blog__pagination li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.product__pagination li.active a,
+.blog__pagination li.active a {
+	background-color: #7fad39;
+	color: white;
 }
 
 .product__pagination a,
