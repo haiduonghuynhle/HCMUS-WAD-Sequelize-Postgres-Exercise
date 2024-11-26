@@ -1,5 +1,5 @@
 const controller = {};
-const { query } = require('express');
+//const { query } = require('express');
 const models = require('../models');
 const { Op, col } = require('sequelize');
 
