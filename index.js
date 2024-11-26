@@ -5,7 +5,7 @@ const expressHbs = require('express-handlebars');
 const { createPagination } = require('express-handlebars-paginate');
 
 // Cau hinh tinh
-app.use(express.static(__dirname + '/html'));
+// app.use(express.static(__dirname + '/html'));
 
 
 // Cau hinh view template
