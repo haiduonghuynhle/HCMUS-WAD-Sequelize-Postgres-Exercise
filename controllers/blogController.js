@@ -32,7 +32,7 @@ controller.showList = async(req, res) => {
     if (tag) {
         options.include.push({
             model: models.Tag,
-            where: { id: tag },
+            where: { id: tag }
         });
     }
 
